@@ -10,6 +10,8 @@ Provided plugins included:
 
 See `/playground/app.vue` for working examples.
 
+On npm: [https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module](https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module)
+
 ## Development
 
 - Run `npm run dev:prepare` to generate type stubs.
