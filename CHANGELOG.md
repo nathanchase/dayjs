@@ -1,3 +1,7 @@
+#### 1.0.7 (2022-07-25)
+
+- ensure plugins imported from *.js files
+
 #### 1.0.6 (2022-07-25)
 
 - created configurability for dayjs
