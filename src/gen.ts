@@ -11,7 +11,7 @@ ${locales.map(l => `import 'dayjs/locale/${l}'`).join('\n')}
 ${shouldSetDefaultLocale ? `dayjs.locale('${defaultLocale}')` : ''}
 ${plugins.map((p) => {
   const _p = renamePlugin(p)
-  return `import ${_p} from 'dayjs/plugin/${p}'\ndayjs.extend(${_p})`
+  return `import ${_p} from 'dayjs/plugin/${p}.js'\ndayjs.extend(${_p})`
 }).join('\n')}
 ${shouldSetDefaultTimeZone ? `dayjs.tz.setDefault('${defaultTimeZone}')` : ''}
 `
