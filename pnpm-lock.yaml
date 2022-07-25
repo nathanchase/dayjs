@@ -10,11 +10,11 @@ specifiers:
 
 dependencies:
   '@nuxt/kit': 3.0.0-rc.6
+  dayjs: 1.11.4
 
 devDependencies:
   '@nuxt/module-builder': 0.1.7
   '@nuxtjs/eslint-config-typescript': 10.0.0_eslint@8.20.0
-  dayjs: 1.11.4
   eslint: 8.20.0
   nuxt: 3.0.0-rc.6
 
@@ -1783,7 +1783,7 @@ packages:
 
   /dayjs/1.11.4:
     resolution: {integrity: sha512-Zj/lPM5hOvQ1Bf7uAvewDaUcsJoI6JmNqmHhHl3nyumwe0XHwt8sWdOVAPACJzCebL8gQCi+K49w7iKWnGwX9g==}
-    dev: true
+    dev: false
 
   /debug/2.6.9:
     resolution: {integrity: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==}

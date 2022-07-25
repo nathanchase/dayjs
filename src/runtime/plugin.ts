@@ -20,7 +20,7 @@ declare module '@vue/runtime-core' {
 export default defineNuxtPlugin((nuxtApp) => {
   dayjs.extend(duration)
   dayjs.extend(relativeTime)
-  dayjs.extend(advancedFormat)
-  dayjs.extend(weekday)
+  // dayjs.extend(advancedFormat)
+  // dayjs.extend(weekday)
   nuxtApp.provide('dayjs', dayjs)
 })
