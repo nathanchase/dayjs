@@ -29,6 +29,7 @@
   "files": [
     "dist"
   ],
+  "private": false,
   "scripts": {
     "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
