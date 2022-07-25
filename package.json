@@ -1,6 +1,21 @@
 {
-  "name": "@nuxtjs/dayjs",
+  "name": "@nathanchase/nuxt-dayjs-module",
   "version": "1.0.0",
+  "description": "This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanchase/dayjs.git"
+  },
+  "keywords": [
+    "dayjs",
+    "nuxt",
+    "nuxt3"
+  ],
+  "author": "Nathan Chase",
+  "bugs": {
+    "url": "https://github.com/nathanchase/dayjs/issues"
+  },
+  "homepage": "https://github.com/nathanchase/dayjs#readme",
   "license": "MIT",
   "type": "module",
   "exports": {

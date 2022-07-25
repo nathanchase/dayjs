@@ -8,7 +8,7 @@ export interface ModuleOptions {
 
 export default defineNuxtModule<ModuleOptions>({
   meta: {
-    name: '@nuxtjs/dayjs',
+    name: '@nathanchase/nuxt-dayjs-module',
     configKey: 'dayjs',
     compatibility: {
       nuxt: '^3.0.0'
