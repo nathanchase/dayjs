@@ -2,11 +2,17 @@
 
 This is a Nuxt 3 compatible module built with the official Nuxt 3 [module-builder](https://github.com/nuxt/module-builder) for [dayjs](https://github.com/iamkun/dayjs/). This is meant as a Nuxt 3 version of [dayjs-module](https://github.com/nuxt-community/dayjs-module) to satisfy [Nuxt 3 support](https://github.com/nuxt-community/dayjs-module/issues/376).
 
-Provided plugins included:
-* AdvancedFormat
-* Duration
-* RelativeTime
-* Weekday
+Add plugins via configuration in nuxt.config:
+```js
+dayjs: {
+    plugins: [
+      'duration',
+      'relativeTime',
+      'advancedFormat',
+      'weekday'
+    ]
+}
+```
 
 See [/playground/app.vue](https://github.com/nathanchase/dayjs/blob/master/playground/app.vue) for working examples.
 
