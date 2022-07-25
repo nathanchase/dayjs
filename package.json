@@ -1,22 +1,23 @@
 {
   "name": "@nathanchase/nuxt-dayjs-module",
-  "version": "1.0.3",
+  "version": "1.0.5",
+  "private": false,
   "description": "This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nathanchase/dayjs.git"
-  },
   "keywords": [
     "dayjs",
     "nuxt",
     "nuxt3"
   ],
-  "author": "Nathan Chase",
+  "homepage": "https://github.com/nathanchase/dayjs#readme",
   "bugs": {
     "url": "https://github.com/nathanchase/dayjs/issues"
   },
-  "homepage": "https://github.com/nathanchase/dayjs#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanchase/dayjs.git"
+  },
   "license": "MIT",
+  "author": "Nathan Chase",
   "type": "module",
   "exports": {
     ".": {
@@ -29,12 +30,11 @@
   "files": [
     "dist"
   ],
-  "private": false,
   "scripts": {
-    "prepack": "nuxt-module-build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground"
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepack": "nuxt-module-build"
   },
   "dependencies": {
     "@nuxt/kit": "^3.0.0-rc.6",

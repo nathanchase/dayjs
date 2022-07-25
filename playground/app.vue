@@ -4,6 +4,7 @@
     <p> Unformatted: {{ new Date() }}</p>
     <p> Formatted with dayjs (template): {{ $dayjs(new Date()).format('DD/MM/YYYY') }}</p>
     <p> Formatted with dayjs (computed): {{ prettyDate }}</p>
+    <p> Formatted with dayjs (RelativeTime): {{ $dayjs(new Date()).fromNow() }}</p>
   </div>
 </template>
 

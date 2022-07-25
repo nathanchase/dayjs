@@ -5,8 +5,8 @@
       "dayjs",
       "dayjs/plugin/duration",
       "dayjs/plugin/relativeTime",
-      // "dayjs/plugin/advancedFormat",
-      // "dayjs/plugin/weekday"
+      "dayjs/plugin/advancedFormat",
+      "dayjs/plugin/weekday"
     ]
   }
 }
