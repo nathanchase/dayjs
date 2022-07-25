@@ -1,3 +1,7 @@
+#### 1.0.6 (2022-07-25)
+
+- created configurability for dayjs
+
 #### 1.0.5 (2022-07-25)
 
 - WIP - resolving issues

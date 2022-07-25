@@ -1,9 +1,13 @@
 import { resolve } from 'path'
 import { fileURLToPath } from 'url'
-import { defineNuxtModule, addPlugin } from '@nuxt/kit'
+import { defineNuxtModule, addPlugin, addTemplate } from '@nuxt/kit'
+import { generateConfigContents } from './gen'
 
 export interface ModuleOptions {
-  addPlugin: boolean
+  locales: string[];
+  defaultLocale: string | null;
+  plugins: string[];
+  defaultTimeZone: string | null;
 }
 
 export default defineNuxtModule<ModuleOptions>({
@@ -16,14 +20,19 @@ export default defineNuxtModule<ModuleOptions>({
   },
 
   defaults: {
-    addPlugin: true
+    locales: [],
+    defaultLocale: null,
+    plugins: [],
+    defaultTimeZone: null
   },
 
   async setup (options, nuxt) {
-    if (options.addPlugin) {
-      const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
-      await nuxt.options.build.transpile.push(runtimeDir)
-      await addPlugin(resolve(runtimeDir, 'plugin'))
-    }
+    const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
+    await nuxt.options.build.transpile.push(runtimeDir)
+    await addPlugin(resolve(runtimeDir, 'plugin'))
+    await addTemplate({
+      filename: 'dayjs.config.mjs',
+      getContents: () => generateConfigContents(options)
+    })
   }
 })

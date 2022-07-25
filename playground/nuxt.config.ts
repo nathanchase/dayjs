@@ -1,11 +1,16 @@
 import { defineNuxtConfig } from 'nuxt'
-import MyModule from '..'
+import dayjsModule from '..'
 
 export default defineNuxtConfig({
   modules: [
-    MyModule
+    dayjsModule
   ],
-  myModule: {
-    addPlugin: true
+  dayjs: {
+    plugins: [
+      'duration',
+      'relativeTime',
+      'advancedFormat',
+      'weekday'
+    ]
   }
 })
