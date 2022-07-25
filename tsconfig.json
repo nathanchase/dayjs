@@ -1,0 +1,12 @@
+{
+  "extends": "./playground/.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "dayjs",
+      "dayjs/plugin/duration",
+      "dayjs/plugin/relativeTime",
+      "dayjs/plugin/advancedFormat",
+      "dayjs/plugin/weekday"
+    ]
+  }
+}
