@@ -13,7 +13,7 @@ export default defineNuxtConfig({
 });
 ```
 
-Add plugins via configuration in nuxt.config like so:
+Add dayjs plugins (ex: [duration](https://day.js.org/docs/en/plugin/duration)) via configuration in nuxt.config like so:
 ```js
 dayjs: {
     plugins: [
