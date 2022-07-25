@@ -1,4 +1,4 @@
-# Nuxt Module
+# @nathanchase/nuxt-dayjs-module
 
 This is a Nuxt 3 compatible module built with the official Nuxt 3 [module-builder](https://github.com/nuxt/module-builder) for [dayjs](https://github.com/iamkun/dayjs/). This meant as Nuxt 3 version of [dayjs-module](https://github.com/nuxt-community/dayjs-module) to satisfy [Nuxt 3 support](https://github.com/nuxt-community/dayjs-module/issues/376).
 
