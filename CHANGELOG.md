@@ -1,3 +1,5 @@
+#### 1.0.5 (2022-07-25)
+
 #### 1.0.3 (2022-07-25)
 
 - forgot to comment out plugins everywhere
