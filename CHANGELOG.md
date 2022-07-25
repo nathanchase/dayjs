@@ -1,3 +1,7 @@
+#### 1.0.3 (2022-07-25)
+
+- forgot to comment out plugins everywhere
+
 #### 1.0.2 (2022-07-25)
 
 - comment out plugins that aren't exporting default
