@@ -8,7 +8,7 @@ Provided plugins included:
 * RelativeTime
 * Weekday
 
-See `/playground/app.vue` for working examples.
+See [/playground/app.vue](https://github.com/nathanchase/dayjs/blob/master/playground/app.vue) for working examples.
 
 On npm: [https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module](https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module)
 
