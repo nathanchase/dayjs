@@ -1,3 +1,14 @@
+#### 1.0.8 (2022-08-16)
+
+##### Chores
+
+*  lockfile ([efd1dfb2](https://github.com/nathanchase/dayjs/commit/efd1dfb2948732d7851fe8b53ac264d76333a1f5))
+* **deps:**  update dependencies ([51c239ce](https://github.com/nathanchase/dayjs/commit/51c239ce3cb9e61d64fb52826ed29919ea37a367))
+
+##### Other Changes
+
+* //github.com/nathanchase/dayjs ([8d510d47](https://github.com/nathanchase/dayjs/commit/8d510d47757352c1cdbad1330a1d29cafbfdb748))
+
 #### 1.0.7 (2022-07-25)
 
 - ensure plugins imported from *.js files
