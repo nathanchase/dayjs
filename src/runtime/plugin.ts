@@ -1,5 +1,5 @@
 import { defineNuxtPlugin } from '#app'
-import dayjs, { type Dayjs } from 'dayjs'
+import dayjs from 'dayjs'
 import '#build/dayjs.config.mjs'
 
 declare module '#app' {
