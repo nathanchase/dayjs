@@ -1,3 +1,17 @@
+#### 1.0.11 (2022-09-06)
+
+- set prerelease compat constraint to ^3.0.0-rc.9
+
+##### Chores
+
+*  version bump & changelog ([be386ed6](https://github.com/nathanchase/dayjs/commit/be386ed6732f2f9fe30aa85303b6556f1a37205b))
+*  lockfile ([efd1dfb2](https://github.com/nathanchase/dayjs/commit/efd1dfb2948732d7851fe8b53ac264d76333a1f5))
+* **deps:**  update dependencies ([51c239ce](https://github.com/nathanchase/dayjs/commit/51c239ce3cb9e61d64fb52826ed29919ea37a367))
+
+##### Other Changes
+
+* //github.com/nathanchase/dayjs ([8d510d47](https://github.com/nathanchase/dayjs/commit/8d510d47757352c1cdbad1330a1d29cafbfdb748))
+
 #### 1.0.10 (2022-08-16)
 
 - remove unneeded #app interface
