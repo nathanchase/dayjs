@@ -37,13 +37,13 @@
     "prepack": "nuxt-module-build"
   },
   "dependencies": {
-    "@nuxt/kit": "3.0.0-rc.8",
+    "@nuxt/kit": "3.0.0-rc.9",
     "dayjs": "^1.11.5"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "eslint": "latest",
-    "nuxt": "^3.0.0-rc.8"
+    "nuxt": "^3.0.0-rc.9"
   }
 }

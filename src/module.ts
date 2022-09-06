@@ -15,7 +15,7 @@ export default defineNuxtModule<ModuleOptions>({
     name: '@nathanchase/nuxt-dayjs-module',
     configKey: 'dayjs',
     compatibility: {
-      nuxt: '^3.0.0'
+      nuxt: '^3.0.0-rc.9'
     }
   },
 
