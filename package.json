@@ -37,7 +37,7 @@
     "prepack": "nuxt-module-build"
   },
   "dependencies": {
-    "@nuxt/kit": "3.0.0-rc.9",
+    "@nuxt/kit": "3.0.0-rc.10",
     "dayjs": "^1.11.5"
   },
   "devDependencies": {
