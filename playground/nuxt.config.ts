@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from 'nuxt'
 import dayjsModule from '..'
 
 export default defineNuxtConfig({
@@ -6,11 +5,17 @@ export default defineNuxtConfig({
     dayjsModule
   ],
   dayjs: {
+    locales: ['en', 'es', 'pt'],
+    defaultLocale: 'en',
     plugins: [
-      'duration',
+      'customParseFormat',
+      'utc',
+      'timezone',
       'relativeTime',
-      'advancedFormat',
-      'weekday'
+      'localizedFormat',
+      'localeData',
+      'isToday',
+      'updateLocale'
     ]
   }
 })
