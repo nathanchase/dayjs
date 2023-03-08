@@ -6,8 +6,10 @@ export default defineNuxtConfig({
   ],
   dayjs: {
     locales: ['en', 'es', 'pt'],
+
     defaultLocale: 'en',
     plugins: [
+      'advancedFormat',
       'customParseFormat',
       'utc',
       'timezone',
@@ -15,7 +17,14 @@ export default defineNuxtConfig({
       'localizedFormat',
       'localeData',
       'isToday',
-      'updateLocale'
+      'updateLocale',
+      'weekday',
+      'dayOfYear',
+      'duration',
+      'isBetween',
+      'isLeapYear',
+      'isSameOrAfter',
+      'isSameOrBefore'
     ]
   }
 })
