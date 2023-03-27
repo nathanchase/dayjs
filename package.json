@@ -37,7 +37,7 @@
     "prepack": "nuxt-module-build"
   },
   "dependencies": {
-    "@nuxt/kit": "3.2.3",
+    "@nuxt/kit": "3.3.2",
     "dayjs": "^1.11.5"
   },
   "devDependencies": {
