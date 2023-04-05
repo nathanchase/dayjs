@@ -1,6 +1,6 @@
 {
   "name": "@nathanchase/nuxt-dayjs-module",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "private": false,
   "description": "This is a Nuxt 3 compatible module built with the official Nuxt 3 (module-builder)(https://github.com/nuxt/module-builder) for (dayjs)(https://github.com/iamkun/dayjs/).",
   "keywords": [
