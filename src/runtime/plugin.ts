@@ -11,7 +11,7 @@ declare module '@vue/runtime-core' {
 export default defineNuxtPlugin(() => {
   return {
     provide: {
-      dayjs
+      dayjs: typeof dayjs
     }
   }
 })
