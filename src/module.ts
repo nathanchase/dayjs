@@ -1,5 +1,5 @@
-import { resolve } from 'path'
-import { fileURLToPath } from 'url'
+import { resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
 import { defineNuxtModule, addPlugin, addTemplate } from '@nuxt/kit'
 import { generateConfigContents } from './gen'
 
