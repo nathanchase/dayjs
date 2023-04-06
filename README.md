@@ -31,12 +31,7 @@ On npm: [https://www.npmjs.com/package/@nathanchase/nuxt-dayjs-module](https://w
 
 ## Development
 
+- Run 'npm install' to install required packages.
 - Run `npm run dev:prepare` to generate type stubs.
 - Use `npm run dev` to start [playground](./playground) in development mode.
-
-Instantly run dev:
-```bash
-npm install && \
-npm run dev:prepare && \
-npm run dev
 ```
