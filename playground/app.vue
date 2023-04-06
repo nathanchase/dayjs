@@ -59,13 +59,13 @@ const timezones = ref(['America/New_York',
   'Asia/Taipei'
 ])
 
-const { $dayjs } = useNuxtApp()
+const nuxtApp = useNuxtApp()
 
 const prettyDate = computed(() =>
-  $dayjs(new Date()).format('dddd, MMMM D, YYYY h:mm A')
+  nuxtApp.$dayjs(new Date()).format('dddd, MMMM D, YYYY h:mm A')
 )
 watch(currentLocale, (newVal) => {
-  $dayjs.locale(newVal)
+  nuxtApp.$dayjs.locale(newVal)
 })
 
 </script>
